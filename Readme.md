@@ -5,7 +5,7 @@ It is use to navigate new url from old one. For example if we want to migrate ou
 ### Dependence
   - `node`
   - `express`
-  - 'querystring'
+  - `querystring`
   - `Linux` operating system
 
 ### Installation Guide
@@ -16,12 +16,14 @@ npm install express-url-mapper
 ### Some Guidelines
 This module needs to parameters, first parameter is express instance and second is the list of the objects which have old, new url along with the redirection code.
 like:
+```sh
 [
 {
 oldUrl: "myApp/abc.html",
 newUrl: 'myApp/xyz',
 redirectionType: 301
 }]
+```
 
 #### NPM
 ```sh
