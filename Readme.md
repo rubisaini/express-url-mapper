@@ -1,6 +1,6 @@
 # express-url-mapper
 
-It is use to navigate new url from old one. For example if we want to migrate our old system to new one then we have to migrate oul old site url to new url so in this case we can use this module .
+It is use to navigate new url from old one. For example if we want to migrate our old application to new one then we have to migrate our old site url to new url so in this case we can use this module .
 
 ### Dependence
   - `node`
@@ -14,7 +14,7 @@ Just run this command into your project directory.
 npm install express-url-mapper
 ```
 ### Some Guidelines
-This module needs to parameters, first parameter is express instance and second is the list of the objects which have old, new url along with the redirection code.
+This module needs two parameters, first parameter is express instance and second is the list of the objects which have old, new url along with the redirection code.
 like:
 ```sh
 [
